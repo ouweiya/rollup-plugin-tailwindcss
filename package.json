@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-tailwindcss",
+  "version": "1.0.0",
+  "description": "Compile tailwindcss rollup plugin",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouweiya/rollup-plugin-tailwindcss"
+  },
+  "bugs": "https://github.com/ouweiya/rollup-plugin-tailwindcss/issues",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "postcss-load-config": "^4.0.1"
+  }
+}
