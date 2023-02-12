@@ -9,7 +9,7 @@ npm i @ouweiya/rollup-plugin-tailwindcss
 **rollup.config.js**
 
 ```js
-import tailwindcss from 'rollup-plugin-tailwindcss';
+import tailwindcss from '@ouweiya/rollup-plugin-tailwindcss';
 
 export default {
   ...
