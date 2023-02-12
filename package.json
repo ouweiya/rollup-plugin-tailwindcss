@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-tailwindcss",
+  "name": "@ouweiya/rollup-plugin-tailwindcss",
   "version": "1.0.0",
   "description": "Compile tailwindcss rollup plugin",
   "type": "module",
