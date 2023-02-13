@@ -44,3 +44,20 @@ required: `true`
 Type: `string`
 
 default: `patterns`
+
+## postcss.config.js
+
+Use the ES module for the configuration file and add `"type": "module"` in package.json.
+Minimize CSS code after compiling tailwindcss.
+
+```js
+import tailwindcss from 'tailwindcss';
+import cssnano from 'cssnano';
+
+export default {
+  plugins: [
+    tailwindcss,
+    cssnano({ preset: ['default', { discardComments: { removeAll: true } }] })
+  ],
+};
+```
