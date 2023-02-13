@@ -62,3 +62,20 @@ export default {
   ],
 };
 ```
+
+# Dev and Prod
+
+```js
+import tailwindcss from 'tailwindcss';
+import cssnano from 'cssnano';
+
+const isWatchMode = process.argv.includes('--watch') || process.argv.includes('-w');
+
+const plugins = isWatchMode
+  ? [tailwindcss]
+  : [tailwindcss, cssnano({ preset: ['default', { discardComments: { removeAll: true } }] })];
+
+export default {
+  plugins,
+};
+```
