@@ -1,6 +1,6 @@
 ## Install
 
-```cli
+```console
 npm i @ouweiya/rollup-plugin-tailwindcss -D
 ```
 
