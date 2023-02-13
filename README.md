@@ -69,9 +69,9 @@ export default {
 import tailwindcss from 'tailwindcss';
 import cssnano from 'cssnano';
 
-const isWatchMode = process.argv.includes('--watch') || process.argv.includes('-w');
+const isDevelopment = process.argv.some(arg => /--watch|-w|dev-server/.test(arg));
 
-const plugins = isWatchMode
+const plugins = isDevelopment
   ? [tailwindcss]
   : [tailwindcss, cssnano({ preset: ['default', { discardComments: { removeAll: true } }] })];
 
