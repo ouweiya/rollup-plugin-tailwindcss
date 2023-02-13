@@ -24,7 +24,6 @@
     "tailwindcss"
   ],
   "files": [
-    "*",
     "!.github"
   ],
   "author": "",
