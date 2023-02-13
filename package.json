@@ -1,6 +1,6 @@
 {
   "name": "@ouweiya/rollup-plugin-tailwindcss",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Compile tailwindcss rollup plugin",
   "type": "module",
   "main": "index.js",
@@ -24,6 +24,7 @@
     "tailwindcss"
   ],
   "files": [
+    "*",
     "!.github"
   ],
   "author": "",
