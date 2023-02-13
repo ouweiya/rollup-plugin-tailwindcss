@@ -48,6 +48,7 @@ default: `patterns`
 ## postcss.config.js
 
 Use the ES module for the configuration file and add `"type": "module"` in package.json.
+
 Minimize CSS code after compiling tailwindcss.
 
 ```js
