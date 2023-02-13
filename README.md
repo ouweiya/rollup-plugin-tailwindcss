@@ -1,7 +1,7 @@
 ## Install
 
 ```cli
-npm i @ouweiya/rollup-plugin-tailwindcss
+npm i @ouweiya/rollup-plugin-tailwindcss -D
 ```
 
 ## Usage
@@ -15,8 +15,6 @@ export default {
   ...
   plugins: [tailwindcss({ patterns: 'index.css', rootDir: 'src' })],
 };
-
-
 ```
 
 ## Configuration
