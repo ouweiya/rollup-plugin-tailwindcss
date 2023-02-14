@@ -6,7 +6,7 @@ npm i @ouweiya/rollup-plugin-tailwindcss -D
 
 ## Usage
 
-**rollup.config.js**
+**`rollup.config.js`**
 
 ```js
 import tailwindcss from '@ouweiya/rollup-plugin-tailwindcss';
@@ -45,7 +45,7 @@ Type: `string`
 
 default: `patterns`
 
-## postcss.config.js
+## `postcss.config.js`
 
 Use the ES module for the configuration file and add `"type": "module"` in package.json.
 
